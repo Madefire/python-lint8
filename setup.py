@@ -2,7 +2,7 @@
 
 from setuptools import setup, find_packages
 
-version = '0.0.1'
+version = '0.0.2'
 long_description = ''
 for fn in ['README.rst', 'CHANGES.txt', 'TODO.txt']:
     try:
@@ -18,7 +18,7 @@ setup(name='lint8',
       keywords='lint8',
       author='Johann C. Rocholl',
       author_email='johann@rocholl.net',
-      url='http://github.com/ross/python-lint8',
+      url='http://github.com/Madefire/python-lint8',
       packages=['lint8', 'lint8.scripts'],
       scripts=['bin/lint8'],
       classifiers=["Development Status :: 6 - Mature",
@@ -29,5 +29,5 @@ setup(name='lint8',
                    "Topic :: Software Development",
                    "Topic :: Utilities"],
       install_requires=['setuptools'],
-      requires=['pep8 (>= 1.3.3)',
-                'pyflakes (>= 0.6.0)'])
+      requires=['pep8 (>= 1.7.0)',
+                'pyflakes (>= 1.3.0)'])

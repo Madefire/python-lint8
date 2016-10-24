@@ -275,7 +275,6 @@ class PyFlakesChecker(AstChecker):
                                 pyflakes.messages.UndefinedExport,
                                 pyflakes.messages.UndefinedLocal,
                                 pyflakes.messages.DuplicateArgument,
-                                pyflakes.messages.Redefined,
                                 pyflakes.messages.LateFutureImport,
                                 pyflakes.messages.UnusedVariable,
                                 pyflakes.messages.RedefinedInListComp)):
